@@ -89,7 +89,7 @@ const HomePage = () => {
                     <div
                         className="col-md-6 text-center"
                         style={{ cursor: "pointer" }}
-                        onClick={() => navigate("/shop")}
+                        onClick={() => navigate("/shop?category=iphone")}
                     >
                         <div className="category-card">
                             <img
@@ -103,7 +103,7 @@ const HomePage = () => {
                     <div
                         className="col-md-6 text-center"
                         style={{ cursor: "pointer" }}
-                        onClick={() => navigate("/shop")}
+                        onClick={() => navigate("/shop?category=macbook")}
                     >
                         <div className="category-card">
                             <img
@@ -120,7 +120,7 @@ const HomePage = () => {
                     <div
                         className="col-md-4 text-center"
                         style={{ cursor: "pointer" }}
-                        onClick={() => navigate("/shop")}
+                        onClick={() => navigate("/shop?category=ipad")}
                     >
                         <div className="category-card">
                             <img
@@ -134,7 +134,7 @@ const HomePage = () => {
                     <div
                         className="col-md-4 text-center"
                         style={{ cursor: "pointer" }}
-                        onClick={() => navigate("/shop")}
+                        onClick={() => navigate("/shop?category=watch")}
                     >
                         <div className="category-card">
                             <img
@@ -148,7 +148,7 @@ const HomePage = () => {
                     <div
                         className="col-md-4 text-center"
                         style={{ cursor: "pointer" }}
-                        onClick={() => navigate("/shop")}
+                        onClick={() => navigate("/shop?category=airpod")}
                     >
                         <div className="category-card">
                             <img

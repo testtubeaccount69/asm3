@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const PopupPage = () => {
+const LiveChatWidget = () => {
     const [open, setOpen] = useState(false);
     const [messages, setMessages] = useState([
         { text: "Xin chào", user: true },
@@ -147,4 +147,4 @@ const PopupPage = () => {
     );
 };
 
-export default PopupPage;
+export default LiveChatWidget;
