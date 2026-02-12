@@ -58,6 +58,7 @@ const ShopPage = () => {
                                 <div key={product._id} className="col-md-4">
                                     <img
                                         src={product.img1}
+                                        alt="product"
                                         className="img-fluid"
                                         onClick={() => navigate(`/detail/${product._id}`)}
                                     />
