@@ -49,7 +49,7 @@ const CartPage = () => {
                             <div key={item._id} className="row align-items-center mb-4">
 
                                 <div className="col-md-2">
-                                    <img src={item.img1} className="img-fluid" />
+                                    <img src={item.img1} alt="product" className="img-fluid" />
                                 </div>
 
                                 <div className="col-md-2">
